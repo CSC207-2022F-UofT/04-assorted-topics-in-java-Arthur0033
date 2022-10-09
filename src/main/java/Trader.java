@@ -51,8 +51,8 @@ public class Trader<T> {
     /* TODO: Implement the method addToWishlist that takes an
      *       object of type T and adds it to this Trader's wishlist.
      */
-    public void addToWishList(T object){
-        wishlist.add(object);
+    public void addToWishlist(T object){
+        this.wishlist.add(object);
     }
 
 
